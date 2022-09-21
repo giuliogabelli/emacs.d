@@ -5,7 +5,7 @@
 ;;;
 ;;; VHDL Mode
 ;;;
-
+(use-package vhdl-tools)
 (autoload 'vhdl-mode "vhdl-mode" "VHDL Mode" t)
 
 (setq auto-mode-alist (cons '("\\.vhdl?$" . vhdl-mode) auto-mode-alist))
@@ -102,6 +102,7 @@ See URL `http://vhdltool.com'."
 
 (require 'cl)
 
+(use-package veri-kompass)
 (require 'veri-kompass)
 
 ;(add-to-list 'load-path "path-to-veri-kompass-here")

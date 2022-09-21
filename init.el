@@ -41,12 +41,11 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector
    ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
- '(custom-enabled-themes (quote (tango-dark)))
- '(flycheck-verilator-include-path (quote ("$XILINX_VIVADO")))
+ '(custom-enabled-themes '(tango-dark))
+ '(flycheck-verilator-include-path '("$XILINX_VIVADO"))
  '(package-selected-packages
-   (quote
-    (ctags-update jedi dired-subtree elpy magit yaml-mode veri-kompass matlab-mode zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu)))
- '(ps-paper-type (quote a4))
+   '(ctags-update jedi dired-subtree elpy magit yaml-mode veri-kompass matlab-mode zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))
+ '(ps-paper-type 'a4)
  '(ps-print-color-p nil)
  '(show-paren-mode t nil (paren)))
 (custom-set-faces

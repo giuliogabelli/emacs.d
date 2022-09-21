@@ -58,4 +58,10 @@
 (global-set-key (kbd "C-c w") 'whitespace-mode)
 ;; (windmove-default-keybindings)
 
+(use-package move-text)
+(use-package multiple-cursors)
+(use-package function-args)
+(use-package magit)
+
+
 (provide 'setup-general)

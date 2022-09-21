@@ -3,4 +3,8 @@
 ede-projects.el
 *.eld
 **/*.elc
+*.swp
+semanticdb
+transient
+elpa
 
