@@ -1,6 +1,8 @@
 (require 'package)
 (add-to-list 'package-archives
          '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives
+             '("nongnu" . "http://elpa.nongnu.org/nongnu/") t)
 
 (package-initialize)
 
@@ -26,8 +28,11 @@
 (require 'setup-hdl)
 (require 'setup-python)
 (require 'setup-ansi)
+(require 'setup-org)
 
 
+
+(set-face-attribute 'default nil :height 80)
 
 ;; function-args
 (require 'function-args)
@@ -44,7 +49,7 @@
  '(custom-enabled-themes '(tango-dark))
  '(flycheck-verilator-include-path '("$XILINX_VIVADO"))
  '(package-selected-packages
-   '(ctags-update jedi dired-subtree elpy magit yaml-mode veri-kompass matlab-mode zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))
+   '(org-contrib tj3-mode yaml ctags-update jedi dired-subtree elpy magit yaml-mode veri-kompass matlab-mode zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))
  '(ps-paper-type 'a4)
  '(ps-print-color-p nil)
  '(show-paren-mode t nil (paren)))
