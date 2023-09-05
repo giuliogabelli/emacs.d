@@ -1,4 +1,4 @@
-;;
+(use-package jedi)
 
 ;; FIXME!
 ;;(add-hook 'python-mode-hook 'jedi:setup)
