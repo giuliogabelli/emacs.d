@@ -58,6 +58,10 @@
 (global-set-key (kbd "C-c w") 'whitespace-mode)
 ;; (windmove-default-keybindings)
 
+(global-set-key (kbd "C-x p") (lambda ()
+                                (interactive)
+                                (other-window -1)))
+
 (use-package move-text)
 (use-package multiple-cursors)
 (use-package function-args)

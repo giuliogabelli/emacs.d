@@ -20,5 +20,6 @@
   ;;(setq elpy-rpc-backend "jedi"))
   )
 
+(setq python-shell-interpreter "/usr/bin/python3")
 
 (provide 'setup-python)
